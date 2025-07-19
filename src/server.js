@@ -8,7 +8,7 @@ const PORT = 5000;
 app.use(express.static(path.join(__dirname, 'client/build')));
 
 // Handle client-side routing by sending index.html for all non-static requests
-app.get('*', (req, res) => {
+app.get('/*any', (req, res) => {
   res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
 });
 
