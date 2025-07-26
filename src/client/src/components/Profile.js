@@ -10,7 +10,7 @@ function Profile() {
         alt="Profile"
         className="rounded-circle mb-3"
       />
-      <h1>My Dockerized Name</h1>
+      <h1>My Dockerized Quoc Huy - 2200009428 </h1>
       <p className="lead text-muted">Full-Stack Developer | Cloud Enthusiast | Lifelong Learner</p>
     </div>
   );
