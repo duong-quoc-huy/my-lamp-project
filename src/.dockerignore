@@ -1,0 +1,15 @@
+# Node dependencies
+node_modules
+client/node_modules
+client/build
+
+# Logs and debug files
+npm-debug.log
+
+# Git and Vagrant metadata
+.git
+.vagrant
+
+# Docker-related files
+Dockerfile*
+docker-compose.yml
